@@ -1,13 +1,16 @@
 package me.nosharp5.redefined;
 
+import me.nosharp5.redefined.abilities.Ability;
+import me.nosharp5.redefined.abilities.AbilityManager;
+import me.nosharp5.redefined.cmd.TestCMD;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Redefined extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getCommand("test").setExecutor(new TestCMD());
+        AbilityManager.getAllAbilities();
     }
 
     @Override

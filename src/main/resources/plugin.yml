@@ -2,3 +2,7 @@ name: Redefined
 version: ${project.version}
 main: me.nosharp5.redefined.Redefined
 authors: [NoSharp]
+
+commands:
+  test:
+    description: simple Test command.
