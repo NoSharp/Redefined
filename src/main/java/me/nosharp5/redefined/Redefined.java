@@ -1,8 +1,7 @@
 package me.nosharp5.redefined;
 
-import me.nosharp5.redefined.abilities.Ability;
 import me.nosharp5.redefined.abilities.AbilityManager;
-import me.nosharp5.redefined.cmd.TestCMD;
+import me.nosharp5.redefined.commands.TestCMD;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Redefined extends JavaPlugin {
